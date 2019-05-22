@@ -1,10 +1,9 @@
 var answer = "";
-output()
 function output(){
 	var result = Math.floor(Math.random() * 13)+1;
 	switch(result){
 		case 1:
-			document.getElementById('message').innerHTML = '佐平';
+			document.getElementById('message').innerHTML = "佐平";
 			answer = "도울 좌,평평할 평";
 			break;
 		case 2:
