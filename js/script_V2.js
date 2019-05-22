@@ -23,35 +23,35 @@ function output(){
 			answer = "땅 지,지경 역";
 			break;
 		case 6:
-			document.getElementById('message') = "王族";
+			document.getElementById('message').innerHTML = "王族";
 			answer = "임금 왕,겨레 족";
 			break;
 		case 7:
-			document.getElementById('message') = "國交";
+			document.getElementById('message').innerHTML = "國交";
 			answer = "나라 국,사귈 교";
 			break;
 		case 8:
-			document.getElementById('message') = "王號";
+			document.getElementById('message').innerHTML = "王號";
 			answer = "임금 왕,부를 호";
 			break;
 		case 9:
-			document.getElementById('message') = "國號";
+			document.getElementById('message').innerHTML = "國號";
 			answer = "나라 국,부를 호";
 			break;
 		case 10:
-			document.getElementById('message') = "農事";
+			document.getElementById('message').innerHTML = "農事";
 			answer = "농사 농,일 사";
 			break;
 		case 11:
-			document.getElementById('message') = "上大等";
+			document.getElementById('message').innerHTML = "上大等";
 			answer = "위 상,큰 대,등급 등";
 			break;
 		case 12:
-			document.getElementById('message') = "兵部";
+			document.getElementById('message').innerHTML = "兵部";
 			answer = "병사 병,떼 부";
 			break;
 		case 13:
-			document.getElementById('message') = "花郞徒";
+			document.getElementById('message').innerHTML = "花郞徒";
 			answer = "꽃 화,사내 랑,무리 도";
 			break;
 	}
