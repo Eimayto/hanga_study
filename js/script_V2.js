@@ -25,7 +25,7 @@ function output(){
 			break;
 		case 6:
 			message.innerHTML = "王族";
-			answer = "왕 왕,겨레 족";
+			answer = "임금 왕,겨레 족";
 			break;
 		case 7:
 			message.innerHTML = "國交";
@@ -33,7 +33,7 @@ function output(){
 			break;
 		case 8:
 			message.innerHTML = "王號";
-			answer = "왕 왕,부를 호";
+			answer = "임금 왕,부를 호";
 			break;
 		case 9:
 			message.innerHTML = "國號";
